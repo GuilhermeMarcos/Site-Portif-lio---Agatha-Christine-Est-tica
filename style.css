@@ -315,3 +315,47 @@
     .cta-details{flex-direction:column;gap:24px;align-items:center;text-align:center;}
     .cta-details div{text-align:center;}
   }
+
+  /* ===========================
+   LOGO HERO
+=========================== */
+
+.hero-logo{
+    width:340px;
+    max-width:90%;
+    height:auto;
+    display:block;
+    margin-bottom:25px;
+    filter:drop-shadow(0 10px 25px rgba(0,0,0,.35));
+}
+
+.hero-inner{
+    width:100%;
+    padding-top:120px;   /* Novo */
+    padding-bottom:90px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:26px;
+}
+
+/* ===========================
+   LOGO CTA
+=========================== */
+
+.cta-logo{
+    width:220px;
+    max-width:75%;
+    height:auto;
+    display:block;
+    margin:0 auto 35px;
+}
+
+.cta-logo1{
+    width:220px;
+    max-width:75%;
+    height:auto;
+    display:block;
+    margin:10 auto 35px;
+}
+
