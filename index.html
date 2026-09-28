@@ -3,25 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Agatha Christine — Estética Avançada</title>
+<title>Christal Clinic | Estética Avançada & Skincare em Holambra</title>
+<meta name="description" content="Christal Clinic, clínica de estética avançada em Holambra, SP. Toxina botulínica, bioestimuladores, radiofrequência e linha própria de skincare, com Agatha Christine.">
+<meta name="theme-color" content="#181110">
+<meta property="og:title" content="Christal Clinic | Estética Avançada & Skincare">
+<meta property="og:description" content="Estética avançada e linha própria de skincare em Holambra, SP.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="images/logo-transparent.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="script.js">
-
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Dancing+Script:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <!-- ===== NAV ===== -->
 <header class="nav" id="nav">
   <div class="container nav-inner">
+    <a href="#top" class="brand">
+      <span class="logo-mark"><img src="images/logo-transparent.png" alt="Christal Clinic"></span>
+    </a>
     <nav>
       <ul class="nav-links" id="navLinks">
         <li><a href="#sobre">Sobre</a></li>
         <li><a href="#tratamentos">Tratamentos</a></li>
-        <li><a href="#clinica">A Clínica</a></li>
-        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#linha">Linha Christal</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
@@ -32,38 +38,67 @@
 
 <!-- ===== HERO ===== -->
 <section class="hero" id="top">
-  <div class="container hero-inner">
-  <img src="logo-agatha.png"
-     alt="Logo Agatha Christine"
-     class="hero-logo">
-    <p class="eyebrow on-dark">Clínica de Estética Avançada</p>
-    <h1>Beleza tratada com <em>técnica</em>, tempo e ouro.</h1>
-    <p>Harmonização facial, injetáveis e protocolos avançados de pele e corpo, conduzido por uma profissional certificada, num espaço pensado para o seu conforto do início ao fim.</p>
+  <div class="hero-copy">
+    <p class="eyebrow on-dark">Clínica de Estética & Linha de Skincare</p>
+    <h1>
+      <span class="fade-line"><span>Beleza tratada</span></span>
+      <span class="fade-line"><span>com <span class="brush">técnica<svg viewBox="0 0 200 20" preserveAspectRatio="none"><path d="M3 14 C 50 4, 150 4, 197 12"/></svg></span> e tempo.</span></span>
+    </h1>
+    <p class="lede">Harmonização facial, bioestimuladores e protocolos avançados de pele, aliados à nossa própria linha de skincare, formulada para prolongar o resultado de cada tratamento em casa.</p>
     <div class="hero-cta-row">
-      <a href="#contato" class="btn">Agendar Avaliação</a>
-      <a href="#tratamentos" style="font-size:0.78rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--cream-soft);border-bottom:1px solid var(--line);padding-bottom:6px;">Ver Tratamentos</a>
+      <a href="#contato" class="btn">Agendar Avaliação <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a href="#tratamentos" class="link-underline">Ver Tratamentos</a>
+    </div>
+    <div class="hero-byline">
+      <span class="rule">✦</span>
+      <div><strong>Agatha Christine</strong><span>Fundadora & responsável técnica</span></div>
     </div>
   </div>
-  <div class="hero-scroll"><span>Role</span><div class="line"></div></div>
+  <div class="hero-figure">
+    <svg class="hero-arch" viewBox="0 0 600 800" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
+      <defs>
+        <linearGradient id="archGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#c9a961" stop-opacity="0.28"/>
+          <stop offset="45%" stop-color="#9c7873" stop-opacity="0.30"/>
+          <stop offset="100%" stop-color="#181110" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <path class="arch-fill" d="M 40,800 L 40,300 A 260,260 0 0 1 560,300 L 560,800 Z"/>
+      <path class="arch-line" d="M 40,800 L 40,300 A 260,260 0 0 1 560,300 L 560,800"/>
+      <path class="arch-line-inner" d="M 78,800 L 78,300 A 222,222 0 0 1 522,300 L 522,800"/>
+    </svg>
+    <span class="sparkle s1">✦</span>
+    <span class="sparkle s2">✦</span>
+    <span class="sparkle s3">✦</span>
+    <img src="images/founder-cutout.png" alt="Agatha Christine, fundadora da Christal Clinic, preparando um procedimento de estética avançada">
+  </div>
 </section>
+
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span>Toxina Botulínica</span><span>Bioestimuladores</span><span>Skincare</span><span>Radiofrequência</span><span>Linha Christal</span><span>Sérum Rejuvenescedor</span><span>Creme Hidratante</span><span>Toxina Botulínica</span><span>Bioestimuladores</span><span>Skincare</span><span>Radiofrequência</span><span>Linha Christal</span><span>Sérum Rejuvenescedor</span><span>Creme Hidratante</span>
+    <span>Toxina Botulínica</span><span>Bioestimuladores</span><span>Skincare</span><span>Radiofrequência</span><span>Linha Christal</span><span>Sérum Rejuvenescedor</span><span>Creme Hidratante</span><span>Toxina Botulínica</span><span>Bioestimuladores</span><span>Skincare</span><span>Radiofrequência</span><span>Linha Christal</span><span>Sérum Rejuvenescedor</span><span>Creme Hidratante</span>
+  </div>
+</div>
 
 <!-- ===== SOBRE ===== -->
 <section class="about" id="sobre">
   <div class="container about-grid">
-    <div class="about-copy reveal">
-      <p class="eyebrow">Sobre a Agatha Christine</p>
-      <h2>Precisão clínica com sensibilidade estética</h2>
-      <p>Cada protocolo começa com escuta: entender a rotina, a expectativa e a anatomia de quem está diante de nós. Só então desenhamos um plano de tratamento, seja um ajuste sutil de expressão, seja um protocolo completo de harmonização.</p>
-      <p>Trabalhamos com produtos de procedência certificada, técnicas atualizadas e um ambiente reservado, para que cada visita seja também um momento de cuidado.</p>
-      <div class="about-stats">
-        <div><strong>+1.200</strong><span>Procedimentos realizados</span></div>
-        <div><strong>5.0</strong><span>Avaliação das pacientes</span></div>
-        <div><strong>100%</strong><span>Certificada</span></div>
-      </div>
+    <div class="about-visual reveal">
+      <div class="img-wrap"><img src="images/procedure-facial.jpeg" alt="Procedimento de estética facial sendo realizado com precisão na Christal Clinic"></div>
+      <div class="stat-float"><strong>+1.200</strong><span>Procedimentos realizados</span></div>
     </div>
-    <div class="about-image reveal reveal-delay-1">
-      <div class="frame"></div>
-      <img src="1 (6).jpeg" alt="Capuccino delicioso, feito para aconchego e conforto do cliente!">
+    <div class="about-copy reveal reveal-delay-1">
+      <p class="eyebrow">Sobre a Christal Clinic</p>
+      <h2>Precisão clínica, sensibilidade <em>estética</em></h2>
+      <p>Cada protocolo começa com escuta: entender a rotina, a expectativa e a anatomia de quem está diante de nós.</p>
+      <p class="pull">"Só avançamos para a técnica depois de entender, de fato, o que cada paciente busca."</p>
+      <p>Trabalhamos com produtos de procedência certificada, técnicas atualizadas e uma linha própria de skincare, para que o cuidado continue muito depois da sessão.</p>
+      <div class="about-stats-row">
+        <div><strong>4.9</strong><span>Avaliação das pacientes</span></div>
+        <div><strong>100%</strong><span>Equipe certificada</span></div>
+        <div><strong>+8</strong><span>Anos de atuação</span></div>
+      </div>
     </div>
   </div>
 </section>
@@ -76,51 +111,110 @@
       <h2>Um protocolo para cada objetivo</h2>
       <p>Da harmonização facial aos cuidados corporais, cada procedimento é ajustado à sua pele e à sua rotina.</p>
     </div>
-  </div>
-  <div class="container">
-    <div class="service-grid reveal reveal-delay-1">
-      <div class="service-card">
+    <div class="service-list reveal reveal-delay-1">
+      <div class="service-row">
         <span class="service-num">01</span>
-        <h3>Estética Facial</h3>
-        <p>A estética facial é um conjunto de cuidados e procedimentos voltados para a saúde e a beleza do rosto. Seu objetivo principal é melhorar a aparência, realçar os traços naturais e promover o bem-estar. Ela vai além do embelezamento, ajudando também na autoestima e na prevenção do envelhecimento precoce.</p>
+        <h3>Toxina Botulínica</h3>
+        <p>Suaviza linhas de expressão com dosagem precisa e resultado natural, sem perder a expressividade do rosto.</p>
+        <span class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
       </div>
-      <div class="service-card">
+      <div class="service-row">
         <span class="service-num">02</span>
-        <h3>Estética Corporal</h3>
-        <p>A estética corporal é a área que usa técnicas e tratamentos para melhorar a saúde e a aparência do corpo. Ela atua no combate a problemas como gordura localizada, celulite, flacidez e estrias. O objetivo é aumentar o contorno corporal, a qualidade da pele e a autoestima</p>
+        <h3>Bioestimuladores</h3>
+        <p>Estimulam a produção natural de colágeno para firmeza e resultados que evoluem ao longo do tempo.</p>
+        <span class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
       </div>
-      <div class="service-card">
+      <div class="service-row">
         <span class="service-num">03</span>
-        <h3>Injetáveis</h3>
-        <p>Os procedimentos injetáveis na estética são tratamentos minimamente invasivos que utilizam agulhas ou cânulas para aplicar substâncias na pele ou nos músculos. Eles corrigem rugas, restauram volume e estimulam o colágeno.</p>
+        <h3>Skincare & Limpeza de Pele</h3>
+        <p>Protocolos de limpeza e cuidado feitos com a linha Christal, formulada pela clínica e pensada para cada tipo de pele.</p>
+        <span class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
       </div>
-  
+      <div class="service-row">
+        <span class="service-num">04</span>
+        <h3>Tratamentos Corporais</h3>
+        <p>Drenagem linfática, vapor e protocolos redutores para conforto, contorno e bem-estar.</p>
+        <span class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
+      <div class="service-row">
+        <span class="service-num">05</span>
+        <h3>Radiofrequência</h3>
+        <p>Tecnologia avançada para firmeza, rejuvenescimento e uniformidade da pele.</p>
+        <span class="service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ===== A CLÍNICA / GALLERY ===== -->
-<section class="gallery" id="clinica">
+<!-- ===== LINHA CHRISTAL (PRODUTOS) ===== -->
+<section class="products" id="linha">
   <div class="container">
     <div class="section-head reveal">
-      <p class="eyebrow">A Clínica</p>
-      <h2>Por dentro dos nossos cuidados</h2>
-      <p>Um espaço reservado, equipado e pensado em cada detalhe, do acolhimento à técnica.</p>
+      <p class="eyebrow">Linha Christal</p>
+      <h2>Skincare autoral, assinado pela clínica</h2>
+      <p>Formulada para prolongar em casa o resultado dos protocolos feitos aqui, do sérum ao hidratante final.</p>
     </div>
-    <div class="gallery-grid reveal reveal-delay-1">
-      <figure>
-        <img src="1 (1).jpeg" alt="Procedimento facial sendo realizado por profissional da Agatha Christine">
-        <figcaption>Material esterelizado e com ótima qualidade</figcaption>
-      </figure>
-      <figure>
-        <img src="1 (2).jpeg" alt="Material esterilizado preparado para aplicação">
-        <figcaption>Procedimento</figcaption>
-      </figure>
-      <figure>
-        <img src="1 (4).jpeg" alt="Sala de tratamento com parede de certificados da equipe">
-        <figcaption>Procedimento</figcaption>
-      </figure>
+
+    <div class="products-banner reveal reveal-delay-1">
+      <img src="images/linha-christal.jpeg" alt="Linha completa de produtos Christal: creme hidratante, sérum clareador, sabonete Aminosoft, sérum antimanchas e sérum rejuvenescedor">
+      <div class="products-banner-copy">
+        <p class="eyebrow on-dark">A rotina completa</p>
+        <h3>Cinco passos para uma pele tratada todos os dias</h3>
+      </div>
     </div>
+
+    <div class="product-grid reveal reveal-delay-2">
+      <div class="product-card">
+        <div class="p-img"><img src="images/produto-rejuvenescedor.png" alt="Sérum Rejuvenescedor Christal, 30ml"></div>
+        <div class="p-body">
+          <span class="p-tagline">Rejuvenesce · Firma · Renova</span>
+          <h3>Sérum Rejuvenescedor</h3>
+          <span class="p-size">30ml · Uso diário</span>
+          <p class="p-desc">Estimula o colágeno, melhora a elasticidade e suaviza linhas finas e sinais do tempo.</p>
+          <p class="p-actives"><strong>Ativos:</strong> Argireline®, Retinol UTMF, Ácido Hialurônico, Coenzima Q10 e Vitamina E.</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="p-img"><img src="images/produto-clareador-duo.png" alt="Sérum Clareador e Sérum Complementar Antimanchas Christal"></div>
+        <div class="p-body">
+          <span class="p-tagline">Ilumina · Uniformiza · Realça</span>
+          <h3>Dupla Clareadora</h3>
+          <span class="p-size">Clareador 50ml + Antimanchas 30ml</span>
+          <p class="p-desc">Auxilia na redução de manchas, uniformiza o tom da pele e promove luminosidade.</p>
+          <p class="p-actives"><strong>Ativos:</strong> Ácido Tranexâmico, Niacinamida, Alfa-Arbutin e Ácido Azelaico.</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="p-img"><img src="images/produto-aminosoft.png" alt="Sabonete Aminosoft Christal, 120ml"></div>
+        <div class="p-body">
+          <span class="p-tagline">Limpa · Hidrata</span>
+          <h3>Sabonete Aminosoft</h3>
+          <span class="p-size">120ml · Uso diário</span>
+          <p class="p-desc">Limpeza suave que preserva a hidratação natural da pele, com escova facial acoplada.</p>
+          <p class="p-actives"><strong>Ativos:</strong> Glicerina e Ácido Cítrico.</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="p-img"><img src="images/produto-hidratante.png" alt="Creme Hidratante Reparador de Barreira Christal, 50ml"></div>
+        <div class="p-body">
+          <span class="p-tagline">Repara · Hidrata · Protege</span>
+          <h3>Creme Hidratante</h3>
+          <span class="p-size">50ml · Reparador de barreira</span>
+          <p class="p-desc">Hidratação intensa e reparação para uma pele mais macia, nutrida e protegida.</p>
+          <p class="p-actives"><strong>Ativos:</strong> Ceramidas, Manteiga de Karité, D-Pantenol, Niacinamida e Ácido Hialurônico.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== A CLÍNICA (BANDA) ===== -->
+<section class="clinic-band" id="clinica">
+  <img src="images/clinic-room.jpeg" alt="Sala de tratamento da Christal Clinic">
+  <div class="clinic-band-copy container">
+    <p class="eyebrow on-dark">A Clínica</p>
+    <h2>Um espaço reservado, pensado em cada detalhe</h2>
+    <p>Do acolhimento à técnica: ambiente equipado e climatizado para o seu conforto durante todo o protocolo.</p>
   </div>
 </section>
 
@@ -128,76 +222,32 @@
 <section class="trust">
   <div class="container">
     <div class="trust-inner reveal">
-      <div class="trust-text">
+      <div class="trust-lead">
         <p class="eyebrow">Confiança</p>
-        <h2 style="font-size:1.9rem;margin-top:10px;">Formação contínua, técnica comprovada</h2>
-        <p>Nossa equipe mantém-se em atualização constante, com certificações reconhecidas nas principais técnicas de estética avançada do mercado.</p>
+        <h2 style="font-size:1.9rem;margin-top:12px;">Formação contínua, técnica comprovada</h2>
+        <p>Nossa equipe mantém-se em atualização constante, com certificações reconhecidas nas técnicas mais avançadas do mercado.</p>
       </div>
-      <div class="trust-marks">
-        <div><strong>+8</strong><span>Anos de atuação</span></div>
-        <div><strong>30+</strong><span>Certificações</span></div>
-        <div><strong>3</strong><span>Especialidades</span></div>
-      </div>
+      <div class="trust-mark"><strong>+8</strong><span>Anos de atuação</span></div>
+      <div class="trust-mark"><strong>15+</strong><span>Certificações</span></div>
+      <div class="trust-mark"><strong>5</strong><span>Produtos autorais</span></div>
     </div>
-  </div>
-</section>
-
-<!-- ===== DEPOIMENTOS ===== -->
-<section class="testimonials" id="depoimentos">
-  <div class="container">
-    <div class="section-head on-dark reveal">
-      <p class="eyebrow on-dark">Depoimentos</p>
-      <h2>O que dizem nossas pacientes</h2>
-    </div>
-    <div class="t-grid reveal reveal-delay-1">
-      <div class="t-card">
-        <span class="quote-mark">“</span>
-        <p>Amo o atendimento da Agatha! 🩷 Ela é extremamente atenciosa, profissional e cuidadosa em cada detalhe. O espaço é super aconchegante e os resultados dos procedimentos são sempre incríveis. Dá pra sentir que ela ama o que faz e se preocupa de verdade com cada cliente. Super recomendo!!!</p>
-        <span class="who">— Joize Iastremski</span>
-      </div>
-      <div class="t-card">
-        <span class="quote-mark">“</span>
-        <p>Gostei muito do atendimento, fui bem orientada sobre o procedimento , Agatha é uma excelente profissional muito atenciosa e cuidadosa, o espaço é muito organizado e acolhedor.</p>
-        <span class="who">— Simone Soares</span>
-      </div>
-      <div class="t-card">
-        <span class="quote-mark">“</span>
-        <p>Nossa minha experiência foi incrível eu ganhei um procedimento na clínica da Agatha eu só não sabia que essa menina mulher incrível iria mudar a minha vida, eu estava com 88.9 e com a ajuda da Agatha já perdi 15.9 tudo mudou eu sou outra pessoa obrigada Agatha por tudo</p>
-        <span class="who">— Maria Jose Novaes</span>
-      </div>
-    </div>
-
   </div>
 </section>
 
 <!-- ===== CTA / CONTATO ===== -->
 <section class="cta" id="contato">
-  <div class="container">
-    <img src="logo-agatha.png"
-     alt="Logo Agatha Christine"
-     class="cta-logo">
-    <p class="eyebrow on-dark">Agende sua avaliação</p>
+  <div class="cta-bg"><img src="images/procedure-facial.jpeg" alt=""></div>
+  <div class="container cta-content">
+    <span class="cta-badge logo-mark"><img src="images/logo-transparent.png" alt="Christal Clinic"></span>
+    <p class="eyebrow on-dark center">Agende sua avaliação</p>
     <h2>Seu próximo tratamento começa com uma conversa</h2>
     <p>Conte-nos o que você gostaria de cuidar. Retornamos com os melhores horários disponíveis.</p>
-    <a href="https://wa.me/5519999950829?text=" target="_blank" rel="noopener" class="btn">Falar no WhatsApp</a>
-
+    <a href="https://wa.me/5519999950829" target="_blank" rel="noopener" class="btn">Falar no WhatsApp <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     <div class="cta-details">
-      <div>
-        <p class="eyebrow on-dark">Endereço</p>
-        <p>Rota dos imigrantes, Galeria Hulshof número 425, andar de cima sala 116 - Holambra SP</p>
-      </div>
-      <div>
-        <p class="eyebrow on-dark">Telefone</p>
-        <p>(19) 99995-0829</p>
-      </div>
-      <div>
-        <p class="eyebrow on-dark">Horário</p>
-        <p>Seg. a Sex. · 08h às 20h</p>
-      </div>
-      <div>
-        <p class="eyebrow on-dark">Instagram</p>
-        <p>@agathachristine_estetica</p>
-      </div>
+      <div><p class="eyebrow on-dark">Endereço</p><p>R. Rota dos Imigrantes, 425, sala 116 · Holambra, SP</p></div>
+      <div><p class="eyebrow on-dark">Telefone</p><p>(19) 99995-0829</p></div>
+      <div><p class="eyebrow on-dark">Horário</p><p>Seg. a Sáb. · 09h às 19h</p></div>
+      <div><p class="eyebrow on-dark">Instagram</p><p>@clinica_christal</p></div>
     </div>
   </div>
 </section>
@@ -205,45 +255,31 @@
 <!-- ===== FOOTER ===== -->
 <footer>
   <div class="container">
-    <div class="footer-inner">
-      <img src="logo-agatha.png"
-       alt="Logo Agatha Christine"
-      class="cta-logo1">
-      <ul class="footer-links">
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#tratamentos">Tratamentos</a></li>
-        <li><a href="#clinica">A Clínica</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
+    <div class="footer-top">
+      <div>
+        <span class="footer-badge logo-mark"><img src="images/logo-transparent.png" alt="Christal Clinic"></span>
+        <p style="margin-top:18px;">Clínica de estética avançada e linha própria de skincare em Holambra, SP.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul><li><a href="#sobre">Sobre</a></li><li><a href="#tratamentos">Tratamentos</a></li><li><a href="#linha">Linha Christal</a></li><li><a href="#contato">Contato</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul><li><a href="https://wa.me/5519999950829" target="_blank" rel="noopener">(19) 99995-0829</a></li><li><a href="https://www.instagram.com/clinica_christal/" target="_blank" rel="noopener">@clinica_christal</a></li><li><a href="#">R. Rota dos Imigrantes, 425, sala 116, Holambra, SP</a></li></ul>
+      </div>
     </div>
-    <p class="footer-fine">© 2026 Agatha Christine Estética Avançada. Todos os direitos reservados.</p>
+    <div class="footer-fine">
+      <span>© 2026 Christal Clinic. Todos os direitos reservados.</span>
+      <span>Site desenvolvido com cuidado, do início ao fim.</span>
+    </div>
   </div>
 </footer>
 
-<script>
-  // Nav scroll state
-  const nav = document.getElementById('nav');
-  window.addEventListener('scroll', () => {
-    nav.classList.toggle('scrolled', window.scrollY > 40);
-  });
+<a href="https://wa.me/5519999950829" target="_blank" rel="noopener" class="float-wa" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.393.703 4.62 1.912 6.49L4 29l7.694-1.878A11.94 11.94 0 0 0 16.001 27C22.63 27 28 21.627 28 15S22.63 3 16.001 3zm6.51 16.94c-.276.775-1.61 1.487-2.222 1.55-.568.06-1.276.086-2.06-.13-.475-.13-1.084-.34-1.868-.667-3.287-1.42-5.435-4.72-5.6-4.94-.164-.22-1.34-1.78-1.34-3.394 0-1.614.847-2.407 1.147-2.735.3-.328.656-.41.875-.41.219 0 .438.002.629.012.202.01.474-.077.74.564.276.664.94 2.29 1.023 2.456.082.166.137.36.027.58-.11.22-.164.356-.328.548-.164.19-.345.425-.492.57-.164.164-.335.343-.144.673.192.328.854 1.41 1.834 2.284 1.26 1.124 2.322 1.47 2.65 1.634.328.164.52.137.71-.082.192-.22.821-.957 1.04-1.285.22-.328.438-.273.74-.164.3.11 1.917.905 2.245 1.07.328.163.547.245.629.382.082.137.082.79-.192 1.564z"/></svg>
+</a>
 
-  // Mobile menu
-  const menuToggle = document.getElementById('menuToggle');
-  const navLinks = document.getElementById('navLinks');
-  menuToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
-  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
-
-  // Scroll reveal
-  const revealEls = document.querySelectorAll('.reveal');
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
-        io.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.15 });
-  revealEls.forEach(el => io.observe(el));
-</script>
+<script src="script.js"></script>
 </body>
 </html>
